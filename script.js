@@ -27,7 +27,6 @@ function createSingleIndex(contact) {
     //console.log(contact.name)
     //element.classList.add("contact")
     const type = document.querySelector(".main")
-
     type.innerHTML += `
     <a href="page3.html"><div class="contact"><p>${contact}</p></div></a>`
 }
